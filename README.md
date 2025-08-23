@@ -14,7 +14,7 @@ After filtering out suspicious (too fast) and incorrect data (e.g., uppercase le
 
 ---
 
-If you'd like to skip this step, you can download the filtered version (`filtered_events.csv.gz`) from the [releases section](https://github.com/jgandert/analyze_keystroke_data/releases) and move it to the `dataset` directory.
+If you'd like to skip this step, you can download the filtered version (`filtered_events.csv.gz`) from the [releases section](https://github.com/jgandert/analyze_keystrokes/releases) and move it to the `dataset` directory.
 
 ### Step 2: Analyze converted dataset and create training dataset
 
@@ -22,7 +22,7 @@ If you'd like to skip this step, you can download the filtered version (`filtere
 
 If you'd like to use the resulting training dataset to train prediction functions, head over to the [evolve_tap_hold_predictors](https://github.com/jgandert/evolve_tap_hold_predictors) repository.
 
-Evolved functions are used in the [Predictive Tap-Hold community module for QMK](https://github.com/jgandert/qmk_modules/predictive_tap_hold).
+Evolved functions are used in the [Predictive Tap-Hold community module for QMK](https://github.com/jgandert/qmk_modules/tree/main/predictive_tap_hold).
 
 📊 Open [**analyze.md**](analyze.md) to see the output for the default settings.
 
