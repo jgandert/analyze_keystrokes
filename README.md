@@ -47,3 +47,5 @@ keywords = {text entry, modern typing behavior, large-scale study}
 ```
 
 You are free to use this data for non-commercial use in your own research or projects with attribution to the authors.
+
+As a result, the same applies to all files in the `/dataset` directory and the GitHub release files that are based on the dataset.
