@@ -1,0 +1,7 @@
+[project]
+name = "analyze-convert-keystroke-data"
+version = "0.2.0"
+description = "Analyze and convert a public keystroke dataset"
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = []
