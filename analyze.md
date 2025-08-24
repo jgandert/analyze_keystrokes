@@ -412,7 +412,7 @@ All durations are in milliseconds.
 | mod wraps mod                |        672 |  0.08 |
 | total wraps                  |    796_937 |       |
 
-# Counts of Mods Vs Non-Mods Overlaping Another Key
+# Counts of Mods Vs Non-Mods Overlapping Another Key
 
 |      mods |   non-mods | ratio |
 |----------:|-----------:|------:|
@@ -424,7 +424,7 @@ When divided by the total count in each category:
 |-------:|-----------:|------:|
 |  69.02 |      24.75 | 2 : 1 |
 
-# Counts of Mods Vs Non-Mods Wraping Another Key
+# Counts of Mods Vs Non-Mods Wrapping Another Key
 
 |    mods | non-mods | ratio |
 |--------:|---------:|------:|

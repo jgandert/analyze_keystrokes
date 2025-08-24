@@ -1,5 +1,5 @@
 [project]
-name = "analyze-convert-keystroke-data"
+name = "analyze_keystrokes"
 version = "0.2.0"
 description = "Analyze and convert a public keystroke dataset"
 readme = "README.md"

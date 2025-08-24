@@ -707,8 +707,8 @@ def write_csv_of_training_data(training_data: TrainingData):
     print(f'Written training data to {TRAIN_PATH}')
 
 
-def print_counts_vs_with_ratio(total_counts, stem, mods_count, non_mods_count):
-    print_h1(f'Counts of mods vs non-mods {stem}ing another key')
+def print_counts_vs_with_ratio(total_counts, name, mods_count, non_mods_count):
+    print_h1(f'Counts of mods vs non-mods {name} another key')
     print_table([
         ["mods", "non-mods", "ratio"],
         [mods_count, non_mods_count, as_approx_ratio(mods_count, non_mods_count)],
@@ -961,8 +961,8 @@ def print_events_stats():
     mwa = count_any_first(wrap_counts, MOD_VALUE)
     nmwa = count_any_first(wrap_counts, NON_MOD_VALUE)
 
-    print_counts_vs_with_ratio(total_counts, 'overlap', moa, nmoa)
-    print_counts_vs_with_ratio(total_counts, 'wrap', mwa, nmwa)
+    print_counts_vs_with_ratio(total_counts, 'overlapping', moa, nmoa)
+    print_counts_vs_with_ratio(total_counts, 'wrapping', mwa, nmwa)
 
     print_h1("Counts per overlap type for non-mod keys")
     print_table(p_variations(NON_MOD_VALUE, zero_overlap_counts, overlap_counts, wrap_counts))
